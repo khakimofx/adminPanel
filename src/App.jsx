@@ -14,9 +14,8 @@ import Sidebar from './components/Sidebar'
 const App = () => {
   return (
     <Router>
-      <div style={{ display: 'flex', height: '100vh' }}>
+      <div className='flex h-[100vh]'>
         <Sidebar />
-
         <div style={{ flex: 1, padding: '20px'}}>
           <Routes>
             <Route path='/' element={<MainSection />} />
